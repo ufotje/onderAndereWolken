@@ -1,0 +1,8 @@
+.bodyText {
+    background-image: url("/images/rasterBackground.gif");
+    background-repeat: repeat;
+    padding:15px 35px 15px 35px;
+    font-size: 20px;
+    line-height: 170%;
+    font-kerning: normal;
+}

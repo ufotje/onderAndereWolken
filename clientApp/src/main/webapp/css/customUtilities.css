@@ -1,0 +1,255 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ece4cc;
+}
+
+.fontHeader {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.fontAwesome {
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.insetHeaderWhite {
+    font-family: 'Pacifico', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.straightBordersLeft {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.straightBordersRight {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.straightBordersTop {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.straightBordersBottom {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.indicateInvisible {
+    background-color: #f6f6f6;
+    color: #b9bbbe;
+}
+
+.truncate-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Flex aligning items with text wrapping*/
+.flex-parent-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.flex-child-start {
+    justify-content: flex-start;
+    min-width: 0;
+    flex-basis: auto;
+    overflow: hidden;
+}
+
+.flex-center-vertical {
+    text-align: center;
+}
+
+/* Colors */
+.backgroundDarkBrown {
+    background-color: #251605;
+}
+
+.backgroundBlue {
+    background-color: #67a5a6;
+}
+
+.backgroundRed {
+    background-color: #ed6a5a;
+}
+
+.backgroundGreen {
+    background-color: #6f8f72;
+}
+
+.backgroundOrangy {
+    background-color: #e59f71;
+}
+
+.backgroundRosy {
+    background-color: #daa89b;
+}
+
+.backgroundDarkGrey {
+    background-color: #3d3b30;
+}
+
+.backgroundVintageWhite {
+    background-color: #ece4cc;
+}
+
+.backgroundWhite {
+    color: #ffffff;
+}
+
+.colorDarkBrown {
+    color: #251605;
+}
+
+.colorBlue {
+    color: #67a5a6;
+}
+
+.colorRed {
+    color: #ed6a5a;
+}
+
+.colorGreen {
+    color: #6f8f72;
+}
+
+.colorOrangy {
+    color: #e59f71;
+}
+
+.colorRosy {
+    color: #daa89b;
+}
+
+.colorDarkGrey {
+    color: #3d3b30;
+}
+
+.colorVintageWhite {
+    color: #ece4cc;
+}
+
+.colorWhite {
+    color: #ffffff;
+}
+
+.linksWhite {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.linksWhite:hover {
+    color: #eacc16;
+}
+
+.linksHoverRed:hover {
+    text-decoration: none;
+    color: #ed6a5a;
+    cursor: pointer;
+}
+
+.linksHoverGold:hover {
+    text-decoration: none;
+    color: #eacc16;
+    cursor: pointer;
+}
+
+.buttonAsLink {
+    outline: none;
+    border: none;
+}
+
+.headerNeutral {
+    border: 3px solid #251605;
+    background-color: #ece4cc;
+    color: #251605;
+    font-weight: 200;
+}
+
+.headerNeutralTitle {
+    font-size: 30px;
+}
+
+.searchFrame {
+    background-color: #ece4cc;
+    color: #67a5a6;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.searchFrame p {
+    border-bottom: 3px solid #67a5a6;
+    padding-left: 20px;
+}
+
+.searchFrame span {
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.dropdownNeutral {
+    font-style: italic;
+    background-color: #ece4cc;
+    outline: none;
+    border: none;
+}
+
+.btnDef {
+    border: 3px solid #ece4cc;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.btnDef:hover {
+    background-color: #251605;
+    color: #eacc16;
+}
+
+.taglist {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.taglist a {
+    color: #6f8f72;
+}
+
+.taglist a:hover {
+    color: #eacc16;
+}
+
+.picture700x300 {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+input[type="text"]#winnie {
+    display: none;
+}
+
+.btnFocusWhite:focus {
+    color: white;
+}

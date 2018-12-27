@@ -1,0 +1,23 @@
+.paddingButtons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.borderTopBottomTransp {
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.collapseHeader:after{
+    font-family: FontAwesome;
+    content: "\f106";
+    margin-left: 10px;
+}
+
+.collapseHeader.collapsed:after{
+    content: "\f107";
+}
+
+.flex-child-start:last-of-type {
+    margin-left: auto;
+}
